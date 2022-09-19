@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.logoPrincipal{
+    width: 120px;
+    left: 1;
+
+}
+
+.navPrincipal {
+    width: 100%;
+    height: 120px;
+    background: black;
+    margin: 0px;
+}
+
+.navPrincipal ul {
+    float: left;
+    margin: 0;
+}
+
+.navPrincipal ul li {
+    display: inline-block;
+    background-color: yellow;
+    padding: 60px 62px;
+
+}
+
+.navPrincipal ul li a {
+    color: rgb(7, 7, 7);
+    /*font-family: '';*/
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    margin-left: -20px;
+}
+
+.navPrincipal ul li a:hover {
+    background: url('/img/copinho.png') no-repeat center;
+    background-size: 70px;
+    height: 70px;
+    margin-top: -30px;
+
+}
+
+.navPrincipal .logoNav {
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+}
+
+main {
+    /*max-width: 1280px;*/
+    width: 100%;
+    margin: 0 auto;
+    flex: 1 0 auto;
+    padding-bottom: 100px;
+}
+
+.carousel {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.carousel ul {
+    list-style: none;
+    margin: 0px 0px;
+}
+.carousel img{
+    width: 100%; 
+    margin: 0;
+    top: 0;
+}
+.destaque{
+    width: 340px;
+    height: 390px;
+    display: inline-block;
+    position: relative;
+    background-color: orange;
+    text-align: center;
+    border: 1px;
+    border-style: dashed;
+    border-color: red;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 17px 11px 5px -13px rgba(0,0,0,0.63);
+    margin: 0 40px;
+}
+.destaque .imagem{
+    width: 100%;
+    height: 250px;
+    background-size: 100%;
+    background-position: center;
+}
+.destaque h2{
+    font-size: 14px;
+    color:darkred
+}
+.destaque .valor{
+    font-size: 35px;
+    color: red;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.destaque .valor.riscado{
+    font-size: 14px;
+    color: blue;
+    display: block;
+    text-decoration: line-through;
+}
+.destaque .valor small{
+    color: red;
+    
+}
+.destaque .adicionaCarrinho{
+    display: block;
+    position: absolute;
+    width: 320px;
+    padding: 15px 0;
+    background-color: yellowgreen;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    left: 10px;
+    bottom: 10px;
+    margin: 0 auto;
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.5s;
+    
+} 
+.destaque .adicionaCarrinho:hover{
+    background: red;
+    color: orange;
+    transition:all 0.5s;
+}
+
+.rodape {
+    width: 100%;
+    height: 50px;
+    background: rgb(5, 5, 5);
+    /*position: absolute;*/
+    bottom: 0;
+    padding: 10px;
+    
+}
+
+.rodape a {
+    float: right;
+    padding-right: 25px;
+}
+
+.rodape .copy,
+.rodape .a {
+    font-size: 14px;
+    color: white;
+
+}
